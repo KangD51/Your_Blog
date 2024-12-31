@@ -1,0 +1,112 @@
+/* Logo Fullscreen Styling */
+#logo-overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background-color: #fbdbab;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+
+.fullscreen-logo {
+  max-width: 300px;
+  max-height: 300px;
+  opacity: 1;
+  transition: opacity 3s ease-out;
+}
+
+/* Header Logo (Text-based with 3D effect) */
+.header-logo-text {
+  font-family: 'Arial', sans-serif; /* Customizable font */
+  font-size: 1.5rem; /* Adjusted to match the previous logo size */
+  font-weight: bold;
+  color: #fa747c; /* Main text color */
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* 3D shadow effect */
+  transition: transform 0.2s ease-in-out;
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+  .header-logo-text {
+    font-size: 1.8rem;
+  }
+}
+
+body {
+  background-color: #fbdbab;
+  color: #56165d;
+  margin-top: 5rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #56165d;
+}
+
+.navbar {
+  background-color: #56165d;
+}
+
+.navbar-nav .nav-link {
+  color: #fbdbab;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #fa747c;
+}
+
+.content-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.content-section {
+  background-color: #fff;
+  border: 1px solid #fa747c;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.btn-outline-info {
+  color: #fa747c;
+  border-color: #fa747c;
+}
+
+.btn-outline-info:hover {
+  background-color: #fa747c;
+  border-color: #56165d;
+  color: #fff;
+}
+
+/* Styling for Login and Sign Up buttons */
+.navbar-nav .nav-link[href="{{ url_for('login') }}"],
+.navbar-nav .nav-link[href="{{ url_for('register') }}"] {
+    color: #56165d !important;
+}
+
+.btn-primary, .btn-primary:hover {
+    background-color: #56165d;
+    border-color: #56165d;
+}
+
+/* Change ripple/splash effect color for buttons */
+.btn-primary:focus, .btn-primary:active {
+    background-color: #fa747c !important;
+    box-shadow: 0 0 0 0.2rem rgba(250, 116, 124, 0.5) !important; /* Adjusts the ripple effect */
+    border-color: #fa747c !important;
+}
+
+/* Change color of specific links */
+.text-muted a,
+.border-top a {
+    color: #fa747c !important;
+}
+
+.text-muted a:hover,
+.border-top a:hover {
+    color: #56165d !important; /* Optional: Darker color on hover for contrast */
+}
+
