@@ -238,6 +238,11 @@ This project is for educational purposes.
 Feel free to use, modify, and share!
 
 ---
+<img width="1440" alt="Screenshot 2025-07-01 at 6 27 13 AM" src="https://github.com/user-attachments/assets/57130250-cde3-46eb-a0bf-6258defd75bc" />
+<img width="1440" alt="Screenshot 2025-07-01 at 6 26 31 AM" src="https://github.com/user-attachments/assets/73907bfa-d07b-4223-a27e-007112bac39d" />
+<img width="1440" alt="Screenshot 2025-07-01 at 6 26 48 AM" src="https://github.com/user-attachments/assets/c846d39e-fff4-40e4-a0d5-c1be4be832f8" />
+<img width="1440" alt="Screenshot 2025-07-01 at 6 27 00 AM" src="https://github.com/user-attachments/assets/048b50c0-c126-431d-ab63-f77d911b3e0c" />
+<img width="1440" alt="Screenshot 2025-07-01 at 6 25 52 AM" src="https://github.com/user-attachments/assets/84d1860b-b71e-4fc5-80f1-7bc100c91ab9" />
 
-**If you need a `requirements.txt` or want to add deployment instructions, let me know!**  
-Good luck with your interview—this README will help you explain your project confidently! 
+
+
