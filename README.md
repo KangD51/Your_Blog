@@ -243,6 +243,7 @@ Feel free to use, modify, and share!
 <img width="1440" alt="Screenshot 2025-07-01 at 6 26 48 AM" src="https://github.com/user-attachments/assets/c846d39e-fff4-40e4-a0d5-c1be4be832f8" />
 <img width="1440" alt="Screenshot 2025-07-01 at 6 27 00 AM" src="https://github.com/user-attachments/assets/048b50c0-c126-431d-ab63-f77d911b3e0c" />
 <img width="1440" alt="Screenshot 2025-07-01 at 6 25 52 AM" src="https://github.com/user-attachments/assets/84d1860b-b71e-4fc5-80f1-7bc100c91ab9" />
+<img width="1440" alt="Screenshot 2025-07-01 at 6 26 03 AM" src="https://github.com/user-attachments/assets/fc37547c-6b0c-4779-8e2c-487e1d06c2d4" />
 
 
 
