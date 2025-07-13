@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: your-blog
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: your-blog
+  template:
+    metadata:
+      labels:
+        app: your-blog
+    spec:
+      containers:
+        - name: your-blog
+          image: anshuman0506/your-blog:latest
+          ports:
+            - containerPort: 5000
